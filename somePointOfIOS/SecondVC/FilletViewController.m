@@ -6,14 +6,14 @@
 //  Copyright © 2018年 AVIC_IOS_ZZF. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "FilletViewController.h"
 #import "MethodSwizzViewController.h"
 
-@interface ViewController ()
+@interface FilletViewController ()
 
 @end
 
-@implementation ViewController
+@implementation FilletViewController
 
 -(void)load{
     NSLog(@"加载了");

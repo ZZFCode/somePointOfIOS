@@ -7,7 +7,7 @@
 //
 
 #import "MainTableViewController.h"
-#import "ViewController.h"
+#import "FilletViewController.h"
 #import "CopyViewController.h"
 #import "MethodSwizzViewController.h"
 #import "NSString+EOCADditions.h"
@@ -28,7 +28,7 @@
     array = [[NSMutableArray alloc]initWithArray:@[
                                                    @{@"index":@1,
                                                      @"title":@"圆角图片",
-                                                     @"class":@"ViewController"
+                                                     @"class":@"FilletViewController"
                                                      },
                                                    @{@"index":@2,
                                                      @"title":@"copy关键字",
@@ -47,9 +47,6 @@
                                                      @"class":@"GCDVC"
                                                      },
                                                    ]];
-  
-    
-   
 }
 
 
@@ -75,7 +72,7 @@
     switch (indexPath.row) {
         case 0:
         {
-            ViewController *vc = [[ViewController alloc]init];
+            FilletViewController *vc = [[FilletViewController alloc]init];
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;
