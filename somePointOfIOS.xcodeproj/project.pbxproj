@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABB40387202D7FA800AE8399 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB40386202D7FA800AE8399 /* AppDelegate.m */; };
+		ABB4038A202D7FA800AE8399 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB40389202D7FA800AE8399 /* ViewController.m */; };
+		ABB4038D202D7FA800AE8399 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABB4038B202D7FA800AE8399 /* Main.storyboard */; };
+		ABB4038F202D7FA800AE8399 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB4038E202D7FA800AE8399 /* Assets.xcassets */; };
+		ABB40392202D7FA800AE8399 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABB40390202D7FA800AE8399 /* LaunchScreen.storyboard */; };
+		ABB40395202D7FA800AE8399 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB40394202D7FA800AE8399 /* main.m */; };
+		ABB403A5202D807200AE8399 /* GCDVC.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB4039B202D807100AE8399 /* GCDVC.m */; };
+		ABB403A6202D807200AE8399 /* MethodSwizzViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB4039F202D807100AE8399 /* MethodSwizzViewController.m */; };
+		ABB403A7202D807200AE8399 /* SerialSynchronizationQueueVC.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB403A1202D807100AE8399 /* SerialSynchronizationQueueVC.m */; };
+		ABB403A8202D807200AE8399 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB403A3202D807100AE8399 /* MainTableViewController.m */; };
+		ABB403A9202D807200AE8399 /* CopyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB403A4202D807200AE8399 /* CopyViewController.m */; };
+		ABB403AF202D809900AE8399 /* NSString+EOCADditions.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB403AC202D809900AE8399 /* NSString+EOCADditions.m */; };
+		ABB403B0202D809900AE8399 /* UIViewController+Swizzing.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB403AE202D809900AE8399 /* UIViewController+Swizzing.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ABB40382202D7FA800AE8399 /* somePointOfIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = somePointOfIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABB40385202D7FA800AE8399 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ABB40386202D7FA800AE8399 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ABB40388202D7FA800AE8399 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ABB40389202D7FA800AE8399 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ABB4038C202D7FA800AE8399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABB4038E202D7FA800AE8399 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABB40391202D7FA800AE8399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABB40393202D7FA800AE8399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABB40394202D7FA800AE8399 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABB4039B202D807100AE8399 /* GCDVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDVC.m; sourceTree = "<group>"; };
+		ABB4039C202D807100AE8399 /* CopyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CopyViewController.h; sourceTree = "<group>"; };
+		ABB4039D202D807100AE8399 /* MethodSwizzViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MethodSwizzViewController.h; sourceTree = "<group>"; };
+		ABB4039E202D807100AE8399 /* SerialSynchronizationQueueVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SerialSynchronizationQueueVC.h; sourceTree = "<group>"; };
+		ABB4039F202D807100AE8399 /* MethodSwizzViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MethodSwizzViewController.m; sourceTree = "<group>"; };
+		ABB403A0202D807100AE8399 /* GCDVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDVC.h; sourceTree = "<group>"; };
+		ABB403A1202D807100AE8399 /* SerialSynchronizationQueueVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SerialSynchronizationQueueVC.m; sourceTree = "<group>"; };
+		ABB403A2202D807100AE8399 /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		ABB403A3202D807100AE8399 /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		ABB403A4202D807200AE8399 /* CopyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CopyViewController.m; sourceTree = "<group>"; };
+		ABB403AB202D809900AE8399 /* NSString+EOCADditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+EOCADditions.h"; sourceTree = "<group>"; };
+		ABB403AC202D809900AE8399 /* NSString+EOCADditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+EOCADditions.m"; sourceTree = "<group>"; };
+		ABB403AD202D809900AE8399 /* UIViewController+Swizzing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Swizzing.h"; sourceTree = "<group>"; };
+		ABB403AE202D809900AE8399 /* UIViewController+Swizzing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Swizzing.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABB4037F202D7FA800AE8399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABB40379202D7FA700AE8399 = {
+			isa = PBXGroup;
+			children = (
+				ABB40384202D7FA800AE8399 /* somePointOfIOS */,
+				ABB40383202D7FA800AE8399 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABB40383202D7FA800AE8399 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABB40382202D7FA800AE8399 /* somePointOfIOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABB40384202D7FA800AE8399 /* somePointOfIOS */ = {
+			isa = PBXGroup;
+			children = (
+				ABB40385202D7FA800AE8399 /* AppDelegate.h */,
+				ABB40386202D7FA800AE8399 /* AppDelegate.m */,
+				ABB40388202D7FA800AE8399 /* ViewController.h */,
+				ABB40389202D7FA800AE8399 /* ViewController.m */,
+				ABB4039C202D807100AE8399 /* CopyViewController.h */,
+				ABB403A4202D807200AE8399 /* CopyViewController.m */,
+				ABB403A0202D807100AE8399 /* GCDVC.h */,
+				ABB4039B202D807100AE8399 /* GCDVC.m */,
+				ABB403A2202D807100AE8399 /* MainTableViewController.h */,
+				ABB403A3202D807100AE8399 /* MainTableViewController.m */,
+				ABB4039D202D807100AE8399 /* MethodSwizzViewController.h */,
+				ABB4039F202D807100AE8399 /* MethodSwizzViewController.m */,
+				ABB4039E202D807100AE8399 /* SerialSynchronizationQueueVC.h */,
+				ABB403A1202D807100AE8399 /* SerialSynchronizationQueueVC.m */,
+				ABB403AA202D809900AE8399 /* tool */,
+				ABB4038B202D7FA800AE8399 /* Main.storyboard */,
+				ABB4038E202D7FA800AE8399 /* Assets.xcassets */,
+				ABB40390202D7FA800AE8399 /* LaunchScreen.storyboard */,
+				ABB40393202D7FA800AE8399 /* Info.plist */,
+				ABB40394202D7FA800AE8399 /* main.m */,
+			);
+			path = somePointOfIOS;
+			sourceTree = "<group>";
+		};
+		ABB403AA202D809900AE8399 /* tool */ = {
+			isa = PBXGroup;
+			children = (
+				ABB403AB202D809900AE8399 /* NSString+EOCADditions.h */,
+				ABB403AC202D809900AE8399 /* NSString+EOCADditions.m */,
+				ABB403AD202D809900AE8399 /* UIViewController+Swizzing.h */,
+				ABB403AE202D809900AE8399 /* UIViewController+Swizzing.m */,
+			);
+			path = tool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABB40381202D7FA800AE8399 /* somePointOfIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABB40398202D7FA800AE8399 /* Build configuration list for PBXNativeTarget "somePointOfIOS" */;
+			buildPhases = (
+				ABB4037E202D7FA800AE8399 /* Sources */,
+				ABB4037F202D7FA800AE8399 /* Frameworks */,
+				ABB40380202D7FA800AE8399 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = somePointOfIOS;
+			productName = somePointOfIOS;
+			productReference = ABB40382202D7FA800AE8399 /* somePointOfIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABB4037A202D7FA800AE8399 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = AVIC_IOS_ZZF;
+				TargetAttributes = {
+					ABB40381202D7FA800AE8399 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = ABB4037D202D7FA800AE8399 /* Build configuration list for PBXProject "somePointOfIOS" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABB40379202D7FA700AE8399;
+			productRefGroup = ABB40383202D7FA800AE8399 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABB40381202D7FA800AE8399 /* somePointOfIOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABB40380202D7FA800AE8399 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB40392202D7FA800AE8399 /* LaunchScreen.storyboard in Resources */,
+				ABB4038F202D7FA800AE8399 /* Assets.xcassets in Resources */,
+				ABB4038D202D7FA800AE8399 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABB4037E202D7FA800AE8399 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB4038A202D7FA800AE8399 /* ViewController.m in Sources */,
+				ABB403AF202D809900AE8399 /* NSString+EOCADditions.m in Sources */,
+				ABB403A9202D807200AE8399 /* CopyViewController.m in Sources */,
+				ABB403B0202D809900AE8399 /* UIViewController+Swizzing.m in Sources */,
+				ABB403A5202D807200AE8399 /* GCDVC.m in Sources */,
+				ABB403A8202D807200AE8399 /* MainTableViewController.m in Sources */,
+				ABB40395202D7FA800AE8399 /* main.m in Sources */,
+				ABB403A7202D807200AE8399 /* SerialSynchronizationQueueVC.m in Sources */,
+				ABB403A6202D807200AE8399 /* MethodSwizzViewController.m in Sources */,
+				ABB40387202D7FA800AE8399 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ABB4038B202D7FA800AE8399 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABB4038C202D7FA800AE8399 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABB40390202D7FA800AE8399 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABB40391202D7FA800AE8399 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABB40396202D7FA800AE8399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ABB40397202D7FA800AE8399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABB40399202D7FA800AE8399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8SEZT6X2P9;
+				INFOPLIST_FILE = somePointOfIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.avic.somePointOfIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABB4039A202D7FA800AE8399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8SEZT6X2P9;
+				INFOPLIST_FILE = somePointOfIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.avic.somePointOfIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABB4037D202D7FA800AE8399 /* Build configuration list for PBXProject "somePointOfIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB40396202D7FA800AE8399 /* Debug */,
+				ABB40397202D7FA800AE8399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABB40398202D7FA800AE8399 /* Build configuration list for PBXNativeTarget "somePointOfIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB40399202D7FA800AE8399 /* Debug */,
+				ABB4039A202D7FA800AE8399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABB4037A202D7FA800AE8399 /* Project object */;
+}
