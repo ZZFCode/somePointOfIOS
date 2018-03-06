@@ -13,6 +13,8 @@
 #import "NSString+EOCADditions.h"
 #import "SerialSynchronizationQueueVC.h"
 #import "GCDVC.h"
+#import "ZZFKvoClass.h"
+
 @interface MainTableViewController ()
 {
     NSMutableArray *array;
@@ -45,6 +47,10 @@
                                                    @{@"index":@5,
                                                      @"title":@"GCD多线程",
                                                      @"class":@"GCDVC"
+                                                     },
+                                                   @{@"index":@6,
+                                                     @"title":@"KVO",
+                                                     @"class":@"ZZFKvoClass"
                                                      },
                                                    ]];
 }
@@ -98,6 +104,12 @@
         {
             GCDVC *GCDVc = [[GCDVC alloc]init];
             [self.navigationController pushViewController:GCDVc animated:YES];
+        }
+            break;
+        case 5:
+        {
+            ZZFKvoClass *kvoclass = [[ZZFKvoClass alloc]init];
+            [self.navigationController pushViewController:kvoclass animated:YES];
         }
             break;
         default:

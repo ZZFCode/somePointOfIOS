@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB5980F0204E7F9A001088C4 /* ZZFKvoClass.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5980EF204E7F9A001088C4 /* ZZFKvoClass.m */; };
 		ABB40387202D7FA800AE8399 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB40386202D7FA800AE8399 /* AppDelegate.m */; };
 		ABB4038A202D7FA800AE8399 /* FilletViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB40389202D7FA800AE8399 /* FilletViewController.m */; };
 		ABB4038D202D7FA800AE8399 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABB4038B202D7FA800AE8399 /* Main.storyboard */; };
@@ -23,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB5980EE204E7F9A001088C4 /* ZZFKvoClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZFKvoClass.h; sourceTree = "<group>"; };
+		AB5980EF204E7F9A001088C4 /* ZZFKvoClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZFKvoClass.m; sourceTree = "<group>"; };
 		ABB40382202D7FA800AE8399 /* somePointOfIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = somePointOfIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABB40385202D7FA800AE8399 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ABB40386202D7FA800AE8399 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -126,6 +129,8 @@
 				ABB4039F202D807100AE8399 /* MethodSwizzViewController.m */,
 				ABB4039E202D807100AE8399 /* SerialSynchronizationQueueVC.h */,
 				ABB403A1202D807100AE8399 /* SerialSynchronizationQueueVC.m */,
+				AB5980EE204E7F9A001088C4 /* ZZFKvoClass.h */,
+				AB5980EF204E7F9A001088C4 /* ZZFKvoClass.m */,
 			);
 			path = SecondVC;
 			sourceTree = "<group>";
@@ -209,6 +214,7 @@
 				ABB403A8202D807200AE8399 /* MainTableViewController.m in Sources */,
 				ABB40395202D7FA800AE8399 /* main.m in Sources */,
 				ABB403A7202D807200AE8399 /* SerialSynchronizationQueueVC.m in Sources */,
+				AB5980F0204E7F9A001088C4 /* ZZFKvoClass.m in Sources */,
 				ABB403A6202D807200AE8399 /* MethodSwizzViewController.m in Sources */,
 				ABB40387202D7FA800AE8399 /* AppDelegate.m in Sources */,
 			);
@@ -346,7 +352,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8SEZT6X2P9;
-				INFOPLIST_FILE = somePointOfIOS/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/somePointOfIOS/Supporting file/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.avic.somePointOfIOS;
@@ -361,7 +367,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8SEZT6X2P9;
-				INFOPLIST_FILE = somePointOfIOS/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/somePointOfIOS/Supporting file/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.avic.somePointOfIOS;
