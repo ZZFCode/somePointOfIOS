@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		AB5980F0204E7F9A001088C4 /* ZZFKvoClass.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5980EF204E7F9A001088C4 /* ZZFKvoClass.m */; };
+		AB5980F5204FC452001088C4 /* ZZFRuntimeA.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5980F4204FC452001088C4 /* ZZFRuntimeA.m */; };
+		AB7D9EC12057AA1200E7F041 /* ZZFRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7D9EC02057AA1200E7F041 /* ZZFRuntime.m */; };
 		ABB40387202D7FA800AE8399 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB40386202D7FA800AE8399 /* AppDelegate.m */; };
 		ABB4038A202D7FA800AE8399 /* FilletViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB40389202D7FA800AE8399 /* FilletViewController.m */; };
 		ABB4038D202D7FA800AE8399 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABB4038B202D7FA800AE8399 /* Main.storyboard */; };
@@ -26,6 +28,11 @@
 /* Begin PBXFileReference section */
 		AB5980EE204E7F9A001088C4 /* ZZFKvoClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZFKvoClass.h; sourceTree = "<group>"; };
 		AB5980EF204E7F9A001088C4 /* ZZFKvoClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZFKvoClass.m; sourceTree = "<group>"; };
+		AB5980F3204FC452001088C4 /* ZZFRuntimeA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZFRuntimeA.h; sourceTree = "<group>"; };
+		AB5980F4204FC452001088C4 /* ZZFRuntimeA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZFRuntimeA.m; sourceTree = "<group>"; };
+		AB5980F6204FC55B001088C4 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		AB7D9EBF2057AA1200E7F041 /* ZZFRuntime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZFRuntime.h; sourceTree = "<group>"; };
+		AB7D9EC02057AA1200E7F041 /* ZZFRuntime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZFRuntime.m; sourceTree = "<group>"; };
 		ABB40382202D7FA800AE8399 /* somePointOfIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = somePointOfIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABB40385202D7FA800AE8399 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ABB40386202D7FA800AE8399 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -63,6 +70,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB7D9EC22057AA5700E7F041 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AB7D9EC32057AA6E00E7F041 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AB7D9EC72057BBA500E7F041 /* MainController */,
+				ABB403B2202D888600AE8399 /* Runtime */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AB7D9EC72057BBA500E7F041 /* MainController */ = {
+			isa = PBXGroup;
+			children = (
+				ABB403A2202D807100AE8399 /* MainTableViewController.h */,
+				ABB403A3202D807100AE8399 /* MainTableViewController.m */,
+				ABB40388202D7FA800AE8399 /* FilletViewController.h */,
+				ABB40389202D7FA800AE8399 /* FilletViewController.m */,
+				ABB4039C202D807100AE8399 /* CopyViewController.h */,
+				ABB403A4202D807200AE8399 /* CopyViewController.m */,
+				ABB4039E202D807100AE8399 /* SerialSynchronizationQueueVC.h */,
+				ABB403A1202D807100AE8399 /* SerialSynchronizationQueueVC.m */,
+				AB5980EE204E7F9A001088C4 /* ZZFKvoClass.h */,
+				AB5980EF204E7F9A001088C4 /* ZZFKvoClass.m */,
+				ABB403A0202D807100AE8399 /* GCDVC.h */,
+				ABB4039B202D807100AE8399 /* GCDVC.m */,
+			);
+			path = MainController;
+			sourceTree = "<group>";
+		};
 		ABB40379202D7FA700AE8399 = {
 			isa = PBXGroup;
 			children = (
@@ -82,9 +124,8 @@
 		ABB40384202D7FA800AE8399 /* somePointOfIOS */ = {
 			isa = PBXGroup;
 			children = (
-				ABB403A2202D807100AE8399 /* MainTableViewController.h */,
-				ABB403A3202D807100AE8399 /* MainTableViewController.m */,
-				ABB403B2202D888600AE8399 /* SecondVC */,
+				AB7D9EC32057AA6E00E7F041 /* Controller */,
+				AB7D9EC22057AA5700E7F041 /* View */,
 				ABB403B1202D885000AE8399 /* Supporting file */,
 				ABB403AA202D809900AE8399 /* tool */,
 			);
@@ -112,27 +153,22 @@
 				ABB40390202D7FA800AE8399 /* LaunchScreen.storyboard */,
 				ABB40393202D7FA800AE8399 /* Info.plist */,
 				ABB40394202D7FA800AE8399 /* main.m */,
+				AB5980F6204FC55B001088C4 /* PrefixHeader.pch */,
 			);
 			path = "Supporting file";
 			sourceTree = "<group>";
 		};
-		ABB403B2202D888600AE8399 /* SecondVC */ = {
+		ABB403B2202D888600AE8399 /* Runtime */ = {
 			isa = PBXGroup;
 			children = (
-				ABB40388202D7FA800AE8399 /* FilletViewController.h */,
-				ABB40389202D7FA800AE8399 /* FilletViewController.m */,
-				ABB4039C202D807100AE8399 /* CopyViewController.h */,
-				ABB403A4202D807200AE8399 /* CopyViewController.m */,
-				ABB403A0202D807100AE8399 /* GCDVC.h */,
-				ABB4039B202D807100AE8399 /* GCDVC.m */,
+				AB7D9EBF2057AA1200E7F041 /* ZZFRuntime.h */,
+				AB7D9EC02057AA1200E7F041 /* ZZFRuntime.m */,
 				ABB4039D202D807100AE8399 /* MethodSwizzViewController.h */,
 				ABB4039F202D807100AE8399 /* MethodSwizzViewController.m */,
-				ABB4039E202D807100AE8399 /* SerialSynchronizationQueueVC.h */,
-				ABB403A1202D807100AE8399 /* SerialSynchronizationQueueVC.m */,
-				AB5980EE204E7F9A001088C4 /* ZZFKvoClass.h */,
-				AB5980EF204E7F9A001088C4 /* ZZFKvoClass.m */,
+				AB5980F3204FC452001088C4 /* ZZFRuntimeA.h */,
+				AB5980F4204FC452001088C4 /* ZZFRuntimeA.m */,
 			);
-			path = SecondVC;
+			path = Runtime;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,11 +244,13 @@
 			files = (
 				ABB4038A202D7FA800AE8399 /* FilletViewController.m in Sources */,
 				ABB403AF202D809900AE8399 /* NSString+EOCADditions.m in Sources */,
+				AB7D9EC12057AA1200E7F041 /* ZZFRuntime.m in Sources */,
 				ABB403A9202D807200AE8399 /* CopyViewController.m in Sources */,
 				ABB403B0202D809900AE8399 /* UIViewController+Swizzing.m in Sources */,
 				ABB403A5202D807200AE8399 /* GCDVC.m in Sources */,
 				ABB403A8202D807200AE8399 /* MainTableViewController.m in Sources */,
 				ABB40395202D7FA800AE8399 /* main.m in Sources */,
+				AB5980F5204FC452001088C4 /* ZZFRuntimeA.m in Sources */,
 				ABB403A7202D807200AE8399 /* SerialSynchronizationQueueVC.m in Sources */,
 				AB5980F0204E7F9A001088C4 /* ZZFKvoClass.m in Sources */,
 				ABB403A6202D807200AE8399 /* MethodSwizzViewController.m in Sources */,
@@ -352,6 +390,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8SEZT6X2P9;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/avic_ios_zzf/Desktop/swift/somePointOfIOS/somePointOfIOS/Supporting file/PrefixHeader.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/somePointOfIOS/Supporting file/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -367,6 +407,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8SEZT6X2P9;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/avic_ios_zzf/Desktop/swift/somePointOfIOS/somePointOfIOS/Supporting file/PrefixHeader.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/somePointOfIOS/Supporting file/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
