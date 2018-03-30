@@ -17,6 +17,8 @@
 #import "ZZFRuntimeA.h"
 #import "ZZFRuntime.h"
 #import <objc/runtime.h>
+#import "CategoryVC.h"
+#import "ExtensionVC.h"
 
 @interface MainTableViewController ()
 {
@@ -37,7 +39,6 @@
                                                    @{@"title":@"copy关键字",
                                                      @"class":@"CopyViewController"
                                                      },
-                                                   
                                                    @{@"title":@"GCD实现同步锁",
                                                      @"class":@"SerialSynchronizationQueueVC"
                                                      },
@@ -47,9 +48,14 @@
                                                    @{@"title":@"KVO",
                                                      @"class":@"ZZFKvoClass"
                                                      },
-                                                   
                                                    @{@"title":@"runtime集合",
                                                      @"class":@"ZZFRuntime"
+                                                     },
+                                                   @{@"title":@"Category",
+                                                     @"class":@"CategoryVC"
+                                                     },
+                                                   @{@"title":@"Extension",
+                                                     @"class":@"ExtensionVC"
                                                      },
                                                    ]];
 }
@@ -88,9 +94,9 @@
     //创建对象
     id instance = [[newClass alloc]init];
     //获取导航控制器
-    UINavigationController *naVC = (UINavigationController *)self.navigationController;
+//    UINavigationController *naVC = (UINavigationController *)self.navigationController;
     //跳转到对应的控制器
-    [naVC pushViewController:instance animated:YES];
+    [self.navigationController pushViewController:instance animated:YES];
 }
 
 @end

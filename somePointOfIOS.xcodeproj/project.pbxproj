@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		95D55564206E2B5C003AA30A /* CategoryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D55563206E2B5C003AA30A /* CategoryVC.m */; };
+		95D5556A206E2D4F003AA30A /* ExtensionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D55569206E2D4F003AA30A /* ExtensionVC.m */; };
+		95D5556E206E3CFC003AA30A /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D5556D206E3CFC003AA30A /* Person.m */; };
+		95D55574206E54DB003AA30A /* Person+sport.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D55573206E54DB003AA30A /* Person+sport.m */; };
+		95D55577206E55B4003AA30A /* Person+student.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D55576206E55B4003AA30A /* Person+student.m */; };
 		AB5980F0204E7F9A001088C4 /* ZZFKvoClass.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5980EF204E7F9A001088C4 /* ZZFKvoClass.m */; };
 		AB5980F5204FC452001088C4 /* ZZFRuntimeA.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5980F4204FC452001088C4 /* ZZFRuntimeA.m */; };
 		AB7D9EC12057AA1200E7F041 /* ZZFRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7D9EC02057AA1200E7F041 /* ZZFRuntime.m */; };
@@ -26,6 +31,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		95D55562206E2B5C003AA30A /* CategoryVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategoryVC.h; sourceTree = "<group>"; };
+		95D55563206E2B5C003AA30A /* CategoryVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CategoryVC.m; sourceTree = "<group>"; };
+		95D55568206E2D4F003AA30A /* ExtensionVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionVC.h; sourceTree = "<group>"; };
+		95D55569206E2D4F003AA30A /* ExtensionVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionVC.m; sourceTree = "<group>"; };
+		95D5556C206E3CFC003AA30A /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		95D5556D206E3CFC003AA30A /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		95D55570206E3DE2003AA30A /* Person+Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Person+Player.h"; sourceTree = "<group>"; };
+		95D55571206E3E47003AA30A /* Person+Teacher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Person+Teacher.h"; sourceTree = "<group>"; };
+		95D55572206E54DB003AA30A /* Person+sport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Person+sport.h"; sourceTree = "<group>"; };
+		95D55573206E54DB003AA30A /* Person+sport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Person+sport.m"; sourceTree = "<group>"; };
+		95D55575206E55B4003AA30A /* Person+student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Person+student.h"; sourceTree = "<group>"; };
+		95D55576206E55B4003AA30A /* Person+student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Person+student.m"; sourceTree = "<group>"; };
 		AB5980EE204E7F9A001088C4 /* ZZFKvoClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZFKvoClass.h; sourceTree = "<group>"; };
 		AB5980EF204E7F9A001088C4 /* ZZFKvoClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZFKvoClass.m; sourceTree = "<group>"; };
 		AB5980F3204FC452001088C4 /* ZZFRuntimeA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZFRuntimeA.h; sourceTree = "<group>"; };
@@ -70,6 +87,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		95D55561206E2AFE003AA30A /* CategoryAndExtension */ = {
+			isa = PBXGroup;
+			children = (
+				95D55567206E2D3A003AA30A /* Extension */,
+				95D55565206E2B9F003AA30A /* Category */,
+			);
+			path = CategoryAndExtension;
+			sourceTree = "<group>";
+		};
+		95D55565206E2B9F003AA30A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				95D55562206E2B5C003AA30A /* CategoryVC.h */,
+				95D55563206E2B5C003AA30A /* CategoryVC.m */,
+				95D55572206E54DB003AA30A /* Person+sport.h */,
+				95D55573206E54DB003AA30A /* Person+sport.m */,
+				95D55575206E55B4003AA30A /* Person+student.h */,
+				95D55576206E55B4003AA30A /* Person+student.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		95D55567206E2D3A003AA30A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				95D55568206E2D4F003AA30A /* ExtensionVC.h */,
+				95D55569206E2D4F003AA30A /* ExtensionVC.m */,
+				95D5556C206E3CFC003AA30A /* Person.h */,
+				95D5556D206E3CFC003AA30A /* Person.m */,
+				95D55570206E3DE2003AA30A /* Person+Player.h */,
+				95D55571206E3E47003AA30A /* Person+Teacher.h */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		AB7D9EC22057AA5700E7F041 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +134,7 @@
 			children = (
 				AB7D9EC72057BBA500E7F041 /* MainController */,
 				ABB403B2202D888600AE8399 /* Runtime */,
+				95D55561206E2AFE003AA30A /* CategoryAndExtension */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -197,7 +250,7 @@
 		ABB4037A202D7FA800AE8399 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = AVIC_IOS_ZZF;
 				TargetAttributes = {
 					ABB40381202D7FA800AE8399 = {
@@ -242,14 +295,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95D5556A206E2D4F003AA30A /* ExtensionVC.m in Sources */,
 				ABB4038A202D7FA800AE8399 /* FilletViewController.m in Sources */,
 				ABB403AF202D809900AE8399 /* NSString+EOCADditions.m in Sources */,
 				AB7D9EC12057AA1200E7F041 /* ZZFRuntime.m in Sources */,
 				ABB403A9202D807200AE8399 /* CopyViewController.m in Sources */,
+				95D55564206E2B5C003AA30A /* CategoryVC.m in Sources */,
 				ABB403B0202D809900AE8399 /* UIViewController+Swizzing.m in Sources */,
 				ABB403A5202D807200AE8399 /* GCDVC.m in Sources */,
+				95D55577206E55B4003AA30A /* Person+student.m in Sources */,
 				ABB403A8202D807200AE8399 /* MainTableViewController.m in Sources */,
+				95D55574206E54DB003AA30A /* Person+sport.m in Sources */,
 				ABB40395202D7FA800AE8399 /* main.m in Sources */,
+				95D5556E206E3CFC003AA30A /* Person.m in Sources */,
 				AB5980F5204FC452001088C4 /* ZZFRuntimeA.m in Sources */,
 				ABB403A7202D807200AE8399 /* SerialSynchronizationQueueVC.m in Sources */,
 				AB5980F0204E7F9A001088C4 /* ZZFKvoClass.m in Sources */,
@@ -294,6 +352,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -301,6 +360,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -349,6 +409,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -356,6 +417,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -391,7 +453,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8SEZT6X2P9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/avic_ios_zzf/Desktop/swift/somePointOfIOS/somePointOfIOS/Supporting file/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "/Users/zuozhongfei/Git/somePointOfIOS/somePointOfIOS/Supporting file/PrefixHeader.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/somePointOfIOS/Supporting file/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -408,7 +470,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8SEZT6X2P9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/avic_ios_zzf/Desktop/swift/somePointOfIOS/somePointOfIOS/Supporting file/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "/Users/zuozhongfei/Git/somePointOfIOS/somePointOfIOS/Supporting file/PrefixHeader.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/somePointOfIOS/Supporting file/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
